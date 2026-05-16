@@ -106,55 +106,121 @@
             <span>Selected Work</span>
             <h2>Projects</h2>
           </div>
-          <div class="project-grid">
-            <article class="project-card">
-              <img
-                class="project-image"
-                src="https://picsum.photos/seed/pixel-forge/700/500"
-                alt="Pixel Forge project preview"
-              />
-              <div class="project-info">
-                <span class="project-type">Dashboard</span>
-                <h3>Pixel Forge</h3>
-                <p>
-                  A clean dashboard concept for tracking creative tasks,
-                  deadlines, and quick project notes.
-                </p>
-                <span class="project-stack">React / CSS / JavaScript</span>
-              </div>
-            </article>
-            <article class="project-card">
-              <img
-                class="project-image"
-                src="https://picsum.photos/seed/cloud-cart/700/500"
-                alt="Cloud Cart project preview"
-              />
-              <div class="project-info">
-                <span class="project-type">Ecommerce</span>
-                <h3>Cloud Cart</h3>
-                <p>
-                  A modern ecommerce layout with product cards, cart flow, and
-                  responsive store sections.
-                </p>
-                <span class="project-stack">Node.js / Express / MongoDB</span>
-              </div>
-            </article>
-            <article class="project-card">
-              <img
-                class="project-image"
-                src="https://picsum.photos/seed/task-orbit/700/500"
-                alt="Task Orbit project preview"
-              />
-              <div class="project-info">
-                <span class="project-type">Productivity</span>
-                <h3>Task Orbit</h3>
-                <p>
-                  A productivity app idea for organizing daily work, priorities,
-                  and progress in one focused view.
-                </p>
-                <span class="project-stack">TypeScript / MySQL / Tailwind</span>
-              </div>
-            </article>
+          <div class="project-carousel">
+            <button
+              class="project-scroll-btn project-scroll-left"
+              type="button"
+              aria-label="Scroll projects left"
+              data-project-scroll="left"
+            >
+              <span aria-hidden="true">&#8249;</span>
+            </button>
+            <div class="project-grid" id="projectTrack">
+              <article class="project-card">
+                <img
+                  class="project-image"
+                  src="https://picsum.photos/seed/pixel-forge/700/500"
+                  alt="Pixel Forge project preview"
+                />
+                <div class="project-info">
+                  <span class="project-type">Dashboard</span>
+                  <h3>Pixel Forge</h3>
+                  <p>
+                    A clean dashboard concept for tracking creative tasks,
+                    deadlines, and quick project notes.
+                  </p>
+                  <span class="project-stack">React / CSS / JavaScript</span>
+                </div>
+              </article>
+              <article class="project-card">
+                <img
+                  class="project-image"
+                  src="https://picsum.photos/seed/cloud-cart/700/500"
+                  alt="Cloud Cart project preview"
+                />
+                <div class="project-info">
+                  <span class="project-type">Ecommerce</span>
+                  <h3>Cloud Cart</h3>
+                  <p>
+                    A modern ecommerce layout with product cards, cart flow, and
+                    responsive store sections.
+                  </p>
+                  <span class="project-stack">Node.js / Express / MongoDB</span>
+                </div>
+              </article>
+              <article class="project-card">
+                <img
+                  class="project-image"
+                  src="https://picsum.photos/seed/task-orbit/700/500"
+                  alt="Task Orbit project preview"
+                />
+                <div class="project-info">
+                  <span class="project-type">Productivity</span>
+                  <h3>Task Orbit</h3>
+                  <p>
+                    A productivity app idea for organizing daily work,
+                    priorities, and progress in one focused view.
+                  </p>
+                  <span class="project-stack">TypeScript / MySQL / Tailwind</span>
+                </div>
+              </article>
+              <article class="project-card">
+                <img
+                  class="project-image"
+                  src="https://picsum.photos/seed/code-nest/700/500"
+                  alt="Code Nest project preview"
+                />
+                <div class="project-info">
+                  <span class="project-type">Learning</span>
+                  <h3>Code Nest</h3>
+                  <p>
+                    A learning platform layout for lessons, progress cards, and
+                    saved coding resources.
+                  </p>
+                  <span class="project-stack">React / Tailwind / Firebase</span>
+                </div>
+              </article>
+              <article class="project-card">
+                <img
+                  class="project-image"
+                  src="https://picsum.photos/seed/budget-bloom/700/500"
+                  alt="Budget Bloom project preview"
+                />
+                <div class="project-info">
+                  <span class="project-type">Finance</span>
+                  <h3>Budget Bloom</h3>
+                  <p>
+                    A personal finance interface for tracking expenses, budgets,
+                    and monthly spending patterns.
+                  </p>
+                  <span class="project-stack">JavaScript / Chart UI / MySQL</span>
+                </div>
+              </article>
+              <article class="project-card">
+                <img
+                  class="project-image"
+                  src="https://picsum.photos/seed/weather-lens/700/500"
+                  alt="Weather Lens project preview"
+                />
+                <div class="project-info">
+                  <span class="project-type">Weather</span>
+                  <h3>Weather Lens</h3>
+                  <p>
+                    A forecast app concept with location search, daily cards,
+                    and clean weather status views.
+                  </p>
+                  <span class="project-stack">API / JavaScript / CSS</span>
+                </div>
+              </article>
+            </div>
+            <button
+              class="project-scroll-btn project-scroll-right"
+              type="button"
+              aria-label="Scroll projects right"
+              data-project-scroll="right"
+            >
+              <span aria-hidden="true">&#8250;</span>
+            </button>
           </div>
         </section>
       </div>
